@@ -1,0 +1,97 @@
+/* HospitalDashboard.css */
+.hospital-dashboard {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f7fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      .hospital-header {
+        text-align: center;
+        padding: 2rem;
+        background: linear-gradient(135deg, #4361ee, #3a0ca3);
+        color: white;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        
+      }
+      
+      .hospital-header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      
+      .hospital-header p {
+        margin: 0.5rem 0 0;
+        font-size: 1.2rem;
+        opacity: 0.9;
+      }
+      
+      .dashboard-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 1.5rem;
+        padding: 2rem;
+      }
+      
+      .dashboard-buttons button {
+        width: 250px;
+        padding: 1rem;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .dashboard-buttons button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+      
+      .update-doctor-btn {
+        background-color: #4cc9f0;
+        color: #1a1a1a;
+      }
+      
+      .delete-doctor-btn {
+        background-color: #f72585;
+        color: white;
+      }
+      
+      .booked-patient-btn {
+        background-color: #7209b7;
+        color: white;
+      }
+
+      .upload-doctor-btn{
+        background-color: #25f76f;
+        color: white;
+      }
+      
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .hospital-header h1 {
+          font-size: 2rem;
+        }
+        
+        .hospital-header p {
+          font-size: 1rem;
+        }
+        
+        .dashboard-buttons {
+          gap: 1rem;
+        }
+        
+        .dashboard-buttons button {
+          width: 220px;
+          padding: 0.9rem;
+          font-size: 1rem;
+        }
+      }
