@@ -16,11 +16,11 @@ Admin Panel: Manage doctors, appointments, and user data efficiently.
 # Technologies Used <br/>
 Frontend: React.js <br/>
 
-Backend: (Specify your backend technologies here if applicable)<br/>
+Backend: Node js & Express Js <br/>
 
-Database: (Specify your database technology here if applicable)<br/>
+Database: MangoDb <br/>
 
-Payment: (Specify your payment integration here if applicable)<br/>
+Payment: <br/>
 
 # Installation <br/>
 Clone the repository: git clone <repository-url> <br/>
